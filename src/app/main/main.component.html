@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="action-box-container">
+    <div class="action-box">
+      <img class="img" src="assets/url.jpg">
+      <p class="text" [routerLink]="['/product', item]">Click this text to include the productId in the URL</p>
+      <div class="bottom">
+        <input class="input" [(ngModel)]="item" />
+      </div>
+    </div>
+    <div class="action-box">
+      <img class="img" src="assets/name.jpg">
+      <p class="text" (click)="navigateToProfile()" >Click here to pass your name as a props</p>
+      <div class="bottom">
+        <input class="input" [(ngModel)]="name"  />
+      </div>
+    </div>
+    <div class="action-box">
+      <img class="img" src="assets/age.jpg">
+      <p class="text" (click)="setAge()">Click here to pass your age as a props</p>
+      <div class="bottom">
+        <input class="input" [(ngModel)]="age"/>
+      </div>
+    </div>
+  </div>
+</div>

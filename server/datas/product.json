@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "name": "Laptop",
+    "brand": "Dell",
+    "model": "XPS 13",
+    "price": 1299.99,
+    "specifications": {
+      "processor": "Intel Core i7",
+      "RAM": "16GB",
+      "storage": "512GB SSD",
+      "display": "13.3-inch FHD"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Smartphone",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "price": 799.99,
+    "specifications": {
+      "processor": "A15 Bionic",
+      "RAM": "6GB",
+      "storage": "128GB",
+      "display": "6.1-inch Super Retina XDR"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Smart TV",
+    "brand": "Samsung",
+    "model": "QLED Q80A",
+    "price": 1499.99,
+    "specifications": {
+      "screenSize": "55 inches",
+      "resolution": "4K UHD",
+      "refreshRate": "120Hz",
+      "smartFeatures": true
+    }
+  },
+  {
+    "id": "4",
+    "name": "Headphones",
+    "brand": "Sony",
+    "model": "WH-1000XM4",
+    "price": 349.99,
+    "specifications": {
+      "type": "Over-ear",
+      "wireless": true,
+      "batteryLife": "30 hours",
+      "noiseCancellation": true
+    }
+  }
+]
