@@ -8,7 +8,7 @@ import {Product} from "../utils/dataClass";
   providedIn: 'root'
 })
 export class Requets {
-  private apiUrl = 'http://localhost:3000/products';
+  private apiUrl = 'http://localhost:3000/products'; // Change for your real API endpoint if using some API
 
   constructor(private http: HttpClient) {}
 
